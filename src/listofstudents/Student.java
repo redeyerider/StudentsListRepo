@@ -13,7 +13,6 @@ package listofstudents;
 public class Student {
   private String name;
   private int id;
-  private String DOB;
   
   
   public Student()
@@ -39,25 +38,11 @@ public class Student {
   
   public void setId(int givenId)
   {
-     this.id = givenId;
+      this.id = givenId;
   }
   public int getId()
   {
       return id;
   }
-
-    /**
-     * @return the DOB
-     */
-    public String getDOB() {
-        return DOB;
-    }
-
-    /**
-     * @param DOB the DOB to set
-     */
-    public void setDOB(String DOB) {
-        this.DOB = DOB;
-    }
   
 }
