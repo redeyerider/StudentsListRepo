@@ -15,7 +15,7 @@ public class Student {
   private int id;
   private String DOB;
   
-  
+  private int maxHrs;
   public Student()
   {
        this.id =0;
@@ -58,6 +58,13 @@ public class Student {
      */
     public void setDOB(String DOB) {
         this.DOB = DOB;
+    }
+
+    /**
+     * @return the maxHrs
+     */
+    public int getMaxHrs() {
+        return maxHrs;
     }
   
 }
