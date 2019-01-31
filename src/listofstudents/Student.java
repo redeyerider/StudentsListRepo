@@ -41,6 +41,10 @@ public class Student {
   {
      this.id = givenId;
   }
+  /**
+   * 
+   * @return the id of the student
+   */
   public int getId()
   {
       return id;
