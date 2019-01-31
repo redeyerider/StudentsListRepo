@@ -9,6 +9,7 @@ package listofstudents;
 /**
  *
  * @author shaim
+ * Date:Jan 30 2019
  */
 public class Student {
   private String name;
@@ -16,6 +17,7 @@ public class Student {
   private String DOB;
   
   private int maxHrs;
+  
   public Student()
   {
        this.id =0;
