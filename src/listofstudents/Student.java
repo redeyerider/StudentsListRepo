@@ -10,12 +10,13 @@ package listofstudents;
  *
  * @author shaim
  * Date:Jan 30 2019
+ * 
  */
 public class Student {
   private String name;
   private int id;
   private String DOB;
-  
+  // this property is for parttime student only
   private int maxHrs;
   
   public Student()
